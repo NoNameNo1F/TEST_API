@@ -1,0 +1,62 @@
+@import '_variables';
+body {
+    background-color: $bg-color;
+}
+
+h1,h2 {
+    font-size: 12;
+    background: $h-color;
+    width: 100%;
+}
+
+.test2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+// /* Base */
+
+// * {
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+//     font-family: sans-serif;
+// }
+
+// ul, 
+// li {
+//     margin: 0;
+//     padding: 0;
+//     list-style-type: none;
+// }
+
+// a {
+//   text-decoration: none;
+// }
+
+// /* BEM */
+
+// /* navigation */
+
+// .nav {
+//   margin:10px 5px;
+//   text-align: center;
+// }
+
+// .nav__item, 
+// .nav__item--selected {
+//   display: inline-block;
+//   margin: 0 5px;
+// }
+
+// .nav__item a, 
+// .nav__item--selected a {
+//   color: #797e83;
+//   font-size: 0.9em;
+//   padding: 4px;
+// }
+
+// .nav__item--selected a {
+//   color: black;
+//   border-bottom : black solid 2px
+// }
