@@ -1,5 +1,10 @@
-<form name="form-search" action="">
-  <label for="item">Item:</label><br>
-  <input type="text" id="item" name="item" value=""><br>
-  <input type="submit" value="Search">
-</form> 
+<div class="mt-4">
+  <form name="form-search" method="POST" action="/search">
+    <div class="form-group">
+      <label for="search-input">Từ khóa:</label><br>
+      <input type="text" id="text" name="search-input" placeholder="Nhập từ khóa..."><br>
+    </div>
+
+    <button type="submit" class="btn btn-submit">Tìm kiếm</button>
+  </form> 
+</div>
